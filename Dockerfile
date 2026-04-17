@@ -1,8 +1,6 @@
-FROM golang:1.19
+FROM golang:latest
 
 WORKDIR /app
-
-RUN go mod init teste
 
 COPY . .
 
